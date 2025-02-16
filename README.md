@@ -15,25 +15,26 @@ Database : MySQL
 Backend : Python(Faker for data generation)
 Frontend : Streamlit
 Data Analysis : SQL queries
-# Install libraries
-!pip install mysql-connector-python
-!pip install faker
 # Import Required Libraries
 import mysql.connector
 from faker import Faker
 import pandas as pd
 import streamlit as st
 # Database Schema
-Customers table
-Restaurants table
-orders table
-deliveries table
-delivery persons table
+The database consists of the following tables:
+customers: Stores information about Zomato customers.
+restaurants: Stores information about restaurants listed on Zomato.
+orders: Stores information about customer orders.
+delivery_persons: Stores information about delivery persons.
+deliveries: Stores information about delivery details.
 # project Deliverables
 Fully functional SQL database.
 Streamlit App for data entry and analysis.
 20 SQL queries for insights.
 Dynamic Schema Updates (Add columns/create)
+# Acknowledgements
+Faker library for data generation.
+MySQL Connector/Python for database interaction.
 # License
 This project is open_source under the MIT License.
  
