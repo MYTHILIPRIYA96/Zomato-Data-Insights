@@ -15,7 +15,7 @@ Database : MySQL
 Backend : Python(Faker for data generation)
 Frontend : Streamlit
 Data Analysis : SQL queries
-# install libraries
+# Install libraries
 !pip install mysql-connector-python
 !pip install faker
 # Import Required Libraries
