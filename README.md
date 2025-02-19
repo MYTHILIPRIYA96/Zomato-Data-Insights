@@ -9,7 +9,7 @@ This data can be used for various analytical purposes.
 Dynamic Schema Updates : Add columns or create new tables dynamicaiiy.
 Streamlit App : Perfrom CRUD operation on the SQL database.
 Data Insights : Extract insights on peak ordering times,delivery performance and customer behavior.
-Object_Oriented programming(OOP) : Modular database operations in python.
+Object Oriented programming(OOP) : Modular database operations in python.
 # Technology Stack
 Database : MySQL
 Backend : Python(Faker for data generation)
